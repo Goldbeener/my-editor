@@ -10,7 +10,7 @@ import ElectronVersions from '/@/components/ElectronVersions.vue';</script>
     width="150"
   >
 
-  <p>
+  <p class="border-5 border-red-500">
     For a guide and recipes on how to configure / customize this project,<br>
     check out the
     <a

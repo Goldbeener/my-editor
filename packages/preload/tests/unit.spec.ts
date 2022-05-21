@@ -1,10 +1,10 @@
-import {createHash} from 'crypto';
-import {afterEach, expect, test, vi} from 'vitest';
+import { createHash } from 'crypto';
+import { afterEach, expect, test, vi } from 'vitest';
 
 
 const exposeInMainWorldMock = vi.fn();
 vi.mock('electron', () => ({
-  contextBridge: {exposeInMainWorld: exposeInMainWorldMock},
+  contextBridge: { exposeInMainWorld: exposeInMainWorldMock },
 }));
 
 

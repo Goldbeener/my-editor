@@ -48,6 +48,7 @@
      */
     "quotes": [
       "warn", "single"
-    ]
+    ],
+    "object-curly-spacing": [1, "always"]
   }
 }

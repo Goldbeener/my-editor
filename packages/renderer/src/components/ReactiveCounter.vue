@@ -1,11 +1,14 @@
 <script lang="ts" setup>
-import {ref} from 'vue';
+import { ref } from 'vue';
 
 const count = ref(0);
 </script>
 
 <template>
-  <button @click="count++">
+  <button
+    class="border-5 border-red-500"
+    @click="count++"
+  >
     count is: {{ count }}
   </button>
   <br><br>
